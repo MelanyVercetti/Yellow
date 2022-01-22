@@ -1,0 +1,100 @@
+@media screen and (max-width: 980px) {
+    .header-in {
+        display: block;
+        position: relative;
+    }
+    .logo {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .main-nav {
+        display: none;
+    }
+    .main-nav.active {
+        display: block;
+        position: absolute;
+        top: 55px;
+        right: 25px;
+        background: #bd9d21;
+    }
+    .main-nav.active li {
+        display: block;
+    }
+    .main-nav a {
+        margin-left: 0;
+        margin-right: 19px;
+        margin-bottom: 10px;
+        display: inline-block;
+        padding: 5px 9px;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 50px;
+    }
+    .menu.active {
+        display: none;
+    }
+    .menu-close {
+        display: none;
+        position: absolute;
+        top: 13px;
+        right: 52px;
+    }
+    .menu-close.active {
+        display: block;
+    }
+    .fa-bars {
+        color: #000;
+        font-size: 40px;
+    }
+    .fa-times {
+        color: #000;
+        font-size: 45px;
+    }
+    .main-pic {
+        background-image: none;
+    }
+    .fab {
+        font-size: 50px;
+    }
+    .rights {
+        font-weight: 300;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .socials {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .main-pic {
+        background: auto 100%;
+    }
+    .main-pic h1,
+    .main-pic p {
+        font-size: 30px;
+    }
+    .card {
+        width: 100%;
+    }
+    .socials {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .middle-inner {
+        flex-wrap: wrap;
+    }
+    .rights {
+        font-weight: 300;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .socials {
+        width: 50%;
+    }
+}
