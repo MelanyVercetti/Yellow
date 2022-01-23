@@ -71,7 +71,7 @@ body {
 }
 
 .main-pic {
-    background: #ffcc01 url("/images/main-pic-min.jpg") 100% 0 no-repeat;
+    background: #ffcc01 url("../images/main-pic-min.jpg") 100% 0 no-repeat;
     color: #fff;
     text-align: center;
 }
